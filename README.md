@@ -20,3 +20,8 @@ Em desenvolvimento
 - Criar estrutura do código em Python
 - Adicionar automação de organização de gastos
 - Integrar IA para análise financeira
+
+## Funcionalidades atuais
+- Registro de gastos via terminal
+- Cálculo automático do total
+- Exibição de resumo dos gastos
