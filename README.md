@@ -15,3 +15,8 @@ utilizando automação simples em Python e apoio de IA.
 
 ## Status do projeto
 Em desenvolvimento
+
+## Próximos passos
+- Criar estrutura do código em Python
+- Adicionar automação de organização de gastos
+- Integrar IA para análise financeira
