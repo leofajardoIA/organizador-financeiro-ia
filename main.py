@@ -1,6 +1,8 @@
+import csv
+
 print("=== Organizador Financeiro ===")
 
-gastos = []
+arquivo = "gastos.csv"
 total = 0
 
 while True:
@@ -11,16 +13,14 @@ while True:
 
     valor = float(input("Digite o valor do gasto: "))
 
-    gastos.append((descricao, valor))
+    with open(arquivo, mode="a", newline="", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        writer.writerow([descricao, valor])
+
     total += valor
+    print("Gasto salvo com sucesso!\n")
 
-    print("Gasto registrado!\n")
-
-print("\nResumo dos gastos:")
-for item in gastos:
-    print(f"- {item[0]}: R$ {item[1]:.2f}")
-
-print(f"\nTotal gasto: R$ {total:.2f}")
+print(f"\nTotal gasto nesta sessão: R$ {total:.2f}")
+print("Dados salvos em 'gastos.csv'")
 print("Projeto em desenvolvimento 🚀")
-
 
