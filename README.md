@@ -23,5 +23,7 @@ Em desenvolvimento
 
 ## Funcionalidades atuais
 - Registro de gastos via terminal
-- Cálculo automático do total
-- Exibição de resumo dos gastos
+- Salvamento automático dos gastos em arquivo CSV
+- Cálculo do total gasto na sessão
+- Arquivo compatível com Excel
+
